@@ -741,7 +741,7 @@ p {
 
 @media (max-width: 768px) {
     .hero-logo-img {
-	max-width: 180px; /* o el tamaño que prefieras en mobile */}
+	max-width: 250px; /* o el tamaño que prefieras en mobile */}
     
 	.tm-next {
     margin-right: 0 !important;
