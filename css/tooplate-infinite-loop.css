@@ -16,6 +16,24 @@ body {
   padding: 0;
   overflow-x: hidden;
 }
+
+
+body, html {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+.tm-navbar .container, .container {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+
+
+
+
+
 a {
   transition: all 0.3s ease;
   color: #38B;
@@ -719,4 +737,20 @@ p {
     max-width: 419px;  /* Ajusta el tamaño a tu gusto */
     height: auto;
     display: block;
+}
+
+@media (max-width: 768px) {
+    .hero-logo-img {
+	max-width: 180px; /* o el tamaño que prefieras en mobile */}
+    
+	.tm-next {
+    margin-right: 0 !important;
+    max-width: 60%;
+     }
+.navbar-toggler {
+    margin-left: auto !important;
+  }
+.navbar-brand {
+    font-size: 1.1rem;
+  }
 }
