@@ -755,6 +755,14 @@ p {
 .navbar-brand {
     font-size: 1.1rem;
   }
+
+#infinite, .tm-parallax {
+    background-attachment: scroll !important;
+    background-size: cover !important;
+    background-position: center !important;
+  }
+
+
 }
 #infinite {
   background-size: cover;
