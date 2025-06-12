@@ -22,7 +22,7 @@ body, html {
   max-width: 100vw;
   overflow-x: hidden;
 }
-.tm-navbar .container, .container {
+.tm-navbar .container {
   max-width: 100% !important;
   width: 100% !important;
   padding-left: 8px;
