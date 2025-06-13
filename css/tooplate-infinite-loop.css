@@ -97,7 +97,7 @@ blockquote {
 .tm-navbar {
   position: fixed;
   padding-left: 10%;
-  padding-right: 10%;	
+  padding-right: 10%;
   width: 100%;
   z-index: 1000;
   background-color: transparent;
@@ -165,7 +165,7 @@ blockquote {
 /* Hero */
 
 #infinite {
-  background-color: #222;
+	background-color: #222;
   background-image: url(../img/infinite-loop-01.jpg);
   background-repeat: no-repeat;
   height: 100vh;
@@ -748,7 +748,7 @@ p {
 	max-width: 250px; /* o el tamaño que prefieras en mobile */}
     
 	.tm-next {
-    margin-right: 0 !important;
+    margin-right: -2 !important;
     max-width: 60%;
      }
 .navbar-toggler {
@@ -757,15 +757,8 @@ p {
 .navbar-brand {
     font-size: 1.1rem;
   }
-
-#infinite, .tm-parallax {
-    background-attachment: scroll !important;
-    background-size: cover !important;
-    background-position: center !important;
-  }
-
-
 }
+
 #infinite {
   background-size: cover;
   background-position: center;
